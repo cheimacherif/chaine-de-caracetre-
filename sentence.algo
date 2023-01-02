@@ -1,0 +1,17 @@
+ALGORITHM algorithm_name
+VAR
+    nbr :INTEGER
+    s: STRING
+    i,nb: STRING
+BEGIN
+    set_instructs:= "hello taima cherif " 
+    write (s)
+    read(s)
+    nbr:= length (s)
+    write(s, nbr , "caracteres")ions
+    for i:= 0 in length (s)-1
+        if (s[i]='a'||  s[i]='e' || s[i]='i' || s[i]='o' || s[i]='u' || s[i]='y' )then 
+        nb:=nb+1
+        write(nb)
+END 
+
